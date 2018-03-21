@@ -1,0 +1,82 @@
+'.source.scss':
+  'fs-all-states':
+    'prefix': 'fs-all-states'
+    'body': """@include fs-all-states {
+      $1
+    }$0
+    """
+    'description': 'Helper mixin to apply all pesudo selectors'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-all-states'
+    'rightLabelHTML': '@mixin'
+  'fs-all-states-parent':
+    'prefix': 'fs-all-states-parent'
+    'body': """@include fs-all-states-parent(${1:$parent}) {
+      $2
+    }$0
+    """
+    'description': 'Helper mixin to apply all pesudo selectors to parent'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-all-states-parent'
+    'rightLabelHTML': '@mixin'
+  'fs-static':
+    'prefix': 'fs-static'
+    'body': """@include fs-static {
+      $1
+    }$0
+    """
+    'description': 'Helper mixin to apply static pesudo selectors'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-static'
+    'rightLabelHTML': '@mixin'
+  'fs-static-parent':
+    'prefix': 'fs-static-parent'
+    'body': """@include fs-static-parent(${1:$parent}) {
+      $2
+    }$0
+    """
+    'description': 'Helper mixin to apply static pesudo selectors to parent'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-static-parent'
+    'rightLabelHTML': '@mixin'
+  'fs-attention':
+    'prefix': 'fs-attention'
+    'body': """@include fs-attention {
+      $1
+    }$0
+    """
+    'description': 'Helper mixin to apply :hover, :focus, and :active pesudo selectors'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-attention'
+    'rightLabelHTML': '@mixin'
+  'fs-attention-parent':
+    'prefix': 'fs-attention-parent'
+    'body': """@include fs-attention-parent(${1:$parent}) {
+      $2
+    }$0
+    """
+    'description': 'Helper mixin to apply :hover, :focus, and :active pesudo selectors to parent'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-attention-parent'
+    'rightLabelHTML': '@mixin'
+  'fs-root-add':
+    'prefix': 'fs-root-add'
+    'body': """@include fs-root-add {
+      $1
+    }$0
+    """
+    'description': 'Add selector to root (requires Sass 3.4+)'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-add'
+    'rightLabelHTML': '@mixin'
+  'fs-root-before':
+    'prefix': 'fs-root-before'
+    'body': """@include fs-root-before {
+      $1
+    }$0
+    """
+    'description': 'Prepend selector (requires Sass 3.4+)'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-before'
+    'rightLabelHTML': '@mixin'
+  'fs-text-inputs':
+    'prefix': 'fs-text-inputs'
+    'body': """@include fs-text-inputs {
+      $1
+    }$0
+    """
+    'description': 'Helper to select all text input types'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-text-inputs'
+    'rightLabelHTML': '@mixin'

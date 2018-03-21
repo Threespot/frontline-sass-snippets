@@ -1,0 +1,67 @@
+'.source.scss':
+  'fsbp()':
+    'prefix': 'fs-breakpoint'
+    'body': 'fs-breakpoint(\'${1:key/value}\')'
+    'description': 'Helper to get named breakpoint value from $fs-breakpoints map. Defaults to using `base` as key if a single argument is passed.'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-breakpoint'
+    'rightLabelHTML': '@function'
+  'fsac':
+    'prefix': 'fs-auto-contrast()'
+    'body': 'fs-auto-contrast(${1:color}, ${2:color-map}, ${3:4.5}, ${4:0})'
+    'description': 'Pick first color in map with passing color contrast ratio'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-auto-contrast'
+    'rightLabelHTML': '@function'
+  'fsc':
+    'prefix': 'fs-color()'
+    'body': 'fs-color(\'${1:key/value}\')'
+    'description': 'Helper to get color value from $fs-colors map'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-color'
+    'rightLabelHTML': '@function'
+  'fse':
+    'prefix': 'fs-easing()'
+    'body': 'fs-easing(${1:$name})'
+    'description': 'Custom easing function'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-easing'
+    'rightLabelHTML': '@function'
+  'fsem':
+    'prefix': 'fs-em()'
+    'body': 'fs-em(${1:$values})'
+    'description': 'Convert px to em'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-em'
+    'rightLabelHTML': '@function'
+  'fsemc':
+    'prefix': 'fs-em(v,c)'
+    'body': 'fs-em(${1:$values}, ${2:$fs-base-font-size})'
+    'description': 'Convert px to em with context'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-em'
+    'rightLabelHTML': '@function'
+  'fssvg':
+    'prefix': 'fs-svg()'
+    'body': 'fs-svg(${1:$name})'
+    'description': 'Helper to get URL-escaped inline SVG code for use with background-image'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-svg'
+    'rightLabelHTML': '@function'
+  'fsr':
+    'prefix': 'fs-rem()'
+    'body': 'fs-rem(${1:$values})'
+    'description': 'Convert px to rem'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-rem'
+    'rightLabelHTML': '@function'
+  'fsrc':
+    'prefix': 'fs-rem(v,c)'
+    'body': 'fs-rem(${1:$values}, ${2:$fs-base-font-size})'
+    'description': 'Convert px to rem with context'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-rem'
+    'rightLabelHTML': '@function'
+  'fsscale':
+    'prefix': 'fs-scale()'
+    'body': 'fs-scale(${1:$start}, ${2:$end}, ${3:min-width}, ${4:max-width})'
+    'description': 'Scale a value relative to the viewport width using calc() and viewport units'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-scale'
+    'rightLabelHTML': '@function'
+  'fsz':
+    'prefix': 'fs-zindex()'
+    'body': 'fs-zindex(\'${1:key/value}\')'
+    'description': 'Get z-index layer from $fs-zindex map variable'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-function-fs-zindex'
+    'rightLabelHTML': '@function'

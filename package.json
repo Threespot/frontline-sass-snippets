@@ -1,0 +1,19 @@
+{
+  "name": "frontline-sass-snippets",
+  "version": "0.1.0",
+  "description": "Frontline Sass snippets for Atom",
+  "keywords": [
+    "snippets",
+    "provider",
+    "frontline-sass",
+    "sass",
+    "mixins",
+    "functions"
+  ],
+  "repository": "https://github.com/threespot/frontline-sass-snippets",
+  "author": "Mat Brady <matbr8dy@gmail.com> (http://matbrady.github.io/)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  }
+}

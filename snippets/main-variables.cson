@@ -1,0 +1,31 @@
+'.source.scss':
+  'fsvbfs':
+    'prefix': '$fs-base-font-size'
+    'body': '$fs-base-font-size'
+    'description': 'Base font size'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-variable-fs-base-font-size'
+    'rightLabelHTML': '$variable'
+  'fsvbp':
+    'prefix': '$fs-breakpoints'
+    'body': '$fs-breakpoints'
+    'description': 'Named breakpoints map'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-variable-fs-breakpoints'
+    'rightLabelHTML': '$variable'
+  'fsvc':
+    'prefix': '$fs-colors'
+    'body': '$fs-colors'
+    'description': 'Color map'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-variable-fs-colors'
+    'rightLabelHTML': '$variable'
+  'fsvsi':
+    'prefix': '$fs-svg-icons'
+    'body': '$fs-svg-icons'
+    'description': 'SVG icon map for use with fs-svg function'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-variable-fs-svg-icons'
+    'rightLabelHTML': '$variable'
+  'fsvz':
+    'prefix': '$fs-zindex'
+    'body': '$fs-zindex'
+    'description': 'Z-index layer map'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-variable-fs-zindex'
+    'rightLabelHTML': '$variable'

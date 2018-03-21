@@ -1,0 +1,205 @@
+'.source.scss':
+  'fs-absolute-fill':
+    'prefix': 'fs-absolute-fill'
+    'body': '@include fs-absolute-fill;'
+    'description': 'Absolutely position an element and fill available space'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-absolute-fill'
+    'rightLabelHTML': '@mixin'
+  'fs-angle':
+    'prefix': 'fs-angle'
+    'body': '@include fs-angle(${1:angle}, ${2:color}, ${3:"top"}, ${4:"before"});'
+    'description': 'Apply an angled edge using a pseudo-element with a diagonal background'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-angle'
+    'rightLabelHTML': '@mixin'
+  'fs-aspect-ratio':
+    'prefix': 'fs-aspect-ratio'
+    'body': '@include fs-aspect-ratio(${1:16/9});'
+    'description': 'Maintain aspect ratio'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-aspect-ratio'
+    'rightLabelHTML': '@mixin'
+  'fs-burger':
+    'prefix': 'fs-burger'
+    'body': '@include fs-burger(${1:30px}, ${2:5px}, ${3:3px}, ${4:currentColor}, ${5:0}, ${6:300ms});'
+    'description': 'Burger menu icon mixin'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-burger'
+    'rightLabelHTML': '@mixin'
+  'fs-burger-to-cross':
+    'prefix': 'fs-burger-to-cross'
+    'body': '@include fs-burger-to-cross();'
+    'description': 'Burger menu icon mixin'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-burger-to-cross'
+    'rightLabelHTML': '@mixin'
+  'fs-clearfix':
+    'prefix': 'fs-clearfix'
+    'body': '@include fs-clearfix();'
+    'description': 'Clears floats in IE 8+'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-clearfix'
+    'rightLabelHTML': '@mixin'
+  'fs-contrast-test':
+    'prefix': 'fs-contrast-test'
+    'body': '@include fs-contrast-test(${1:$color1}, ${2:$color2}, ${3:4.5});'
+    'description': 'Warn if the contrast is below a threshold'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-contrast-test'
+    'rightLabelHTML': '@mixin'
+  'fs-font-smoothing':
+    'prefix': 'fs-font-smoothing'
+    'body': '@include fs-font-smoothing(${1:$enabled}, ${2:$color2}, ${3:4.5});'
+    'description': 'Apply font smoothing in Safari, Chrome, and Firefox. Use sparringly!'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-font-smoothing'
+    'rightLabelHTML': '@mixin'
+  'fs-hide-text':
+    'prefix': 'fs-hide-text'
+    'body': '@include fs-hide-text(${1:$enabled}, ${2:$color2}, ${3:4.5});'
+    'description': 'Hide text in element, requires setting height and width'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-hide-text'
+    'rightLabelHTML': '@mixin'
+  'fs-link-colors':
+    'prefix': 'fs-link-colors'
+    'body': '@include fs-link-colors(${1:$static}, ${1:$visited}, ${3:$attention});'
+    'description': 'Helper mixin to set link colors'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-link-colors'
+    'rightLabelHTML': '@mixin'
+  'fs-media':
+    'prefix': 'fs-media'
+    'body': """@include fs-media((${1:min-width}: ${2:600px})) {
+      $3
+    }"""
+    'description': 'Base media query mixin'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-media'
+    'rightLabelHTML': '@mixin'
+  'fs-min-width':
+    'prefix': 'fs-min-width'
+    'body': """@include fs-min-width(${1:$width}) {
+      $2
+    }"""
+    'description': 'Min-width media query helper'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-min-width'
+    'rightLabelHTML': '@mixin'
+  'fs-max-width':
+    'prefix': 'fs-max-width'
+    'body': """@include fs-max-width(${1:$width}) {
+      $2
+    }"""
+    'description': 'Max-width media query helper'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-max-width'
+    'rightLabelHTML': '@mixin'
+  'fs-min-height':
+    'prefix': 'fs-min-height'
+    'body': """@include fs-min-height(${1:$width}) {
+      $2
+    }"""
+    'description': 'Min-height media query helper'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-min-height'
+    'rightLabelHTML': '@mixin'
+  'fs-max-height':
+    'prefix': 'fs-max-height'
+    'body': """@include fs-max-height(${1:$width}) {
+      $2
+    }"""
+    'description': 'Max-height media query helper'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-max-height'
+    'rightLabelHTML': '@mixin'
+  'fs-print-hide':
+    'prefix': 'fs-print-hide'
+    'body': '@include fs-print-hide;'
+    'description': 'Hide in print view'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-print-hide'
+    'rightLabelHTML': '@mixin'
+  'fs-print-only':
+    'prefix': 'fs-print-only'
+    'body': '@include fs-print-only;'
+    'description': 'Show in print view'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-print-only'
+    'rightLabelHTML': '@mixin'
+  'fs-quantity':
+    'prefix': 'fs-quantity'
+    'body': """@include fs-quantity(${1:'<=8'}) {
+      $2
+    }"""
+    'description': 'Quantity query mixin'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-quantity'
+    'rightLabelHTML': '@mixin'
+  'fs-reset-input':
+    'prefix': 'fs-reset-input'
+    'body': '@include fs-reset-input;'
+    'description': 'Reset input styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-reset-input'
+    'rightLabelHTML': '@mixin'
+  'fs-reset-button':
+    'prefix': 'fs-reset-button'
+    'body': '@include fs-reset-button;'
+    'description': 'Reset button styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-reset-button'
+    'rightLabelHTML': '@mixin'
+  'fs-reset-textarea':
+    'prefix': 'fs-reset-textarea'
+    'body': '@include fs-reset-textarea;'
+    'description': 'Reset textarea styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-reset-textarea'
+    'rightLabelHTML': '@mixin'
+  'fs-reset-list':
+    'prefix': 'fs-reset-list'
+    'body': '@include fs-reset-list;'
+    'description': 'Reset list styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-reset-list'
+    'rightLabelHTML': '@mixin'
+  'fs-scale-mq':
+    'prefix': 'fs-scale-mq'
+    'body': '@include fs-scale-mq(${1:$property}, ${2:$start}, ${3:$end}, ${4:$min-width}, ${5:$max-width}, ${6:null}, ${7:10});'
+    'description': 'Scale a value relative to the viewport width by generating media queries at set intervals'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-scale-mq'
+    'rightLabelHTML': '@mixin'
+  'fs-scale-text':
+    'prefix': 'fs-scale-text'
+    'body': '@include fs-scale-text(${1:$start}, ${2:$end}, ${3:2px}, ${4:0.1}, ${5:320px}, ${5:1000px}, ${6:$fs-base-font-size}, ${7:"%"});'
+    'description': 'Automatically scale font-size and line-height'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-scale-text'
+    'rightLabelHTML': '@mixin'
+  'fs-scale':
+    'prefix': 'fs-scale'
+    'body': '@include fs-scale(${1:$property}, ${2:$start}, ${3:$end}, ${4:$min-width}, ${5:$max-width}, ${6:true});'
+    'description': 'Scale a value for any number of properites relative to the viewport width'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-scale'
+    'rightLabelHTML': '@mixin'
+  'fs-text-optimize':
+    'prefix': 'fs-text-optimize'
+    'body': '@include fs-text-optimize;'
+    'description': 'Helper for setting text-rendering: optimizeLegibility;'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-text-optimize'
+    'rightLabelHTML': '@mixin'
+  'fs-triangle':
+    'prefix': 'fs-triangle'
+    'body': '@include fs-triangle(${1:$size}, ${2:$color}, ${3:$direction});'
+    'description': 'Triangle mixin (from Bourbon)'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-triangle'
+    'rightLabelHTML': '@mixin'
+  'fs-vert-center':
+    'prefix': 'fs-vert-center'
+    'body': '@include fs-vert-center(${1:relative});'
+    'description': 'Vertically center an element'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-vert-center'
+    'rightLabelHTML': '@mixin'
+  'fs-undo-vert-center':
+    'prefix': 'fs-undo-vert-center'
+    'body': '@include fs-undo-vert-center;'
+    'description': 'Reset vertical center styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-undo-vert-center'
+    'rightLabelHTML': '@mixin'
+  'fs-visually-hidden':
+    'prefix': 'fs-visually-hidden'
+    'body': '@include fs-visually-hidden;'
+    'description': 'Hide visually but still be available to screenreaders'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-visually-hidden'
+    'rightLabelHTML': '@mixin'
+  'fs-undo-visually-hidden':
+    'prefix': 'fs-undo-visually-hidden'
+    'body': '@include fs-undo-visually-hidden;'
+    'description': 'Undo visually hidden styles'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-undo-visually-hidden'
+    'rightLabelHTML': '@mixin'
+  'fs-break-word':
+    'prefix': 'fs-break-word'
+    'body': '@include fs-break-word;'
+    'description': 'Break long words, hyphenate if possible (requires lang attribute)'
+    'descriptionMoreURL': 'http://threespot.github.io/frontline-sass/documentation/#main-mixin-fs-break-word'
+    'rightLabelHTML': '@mixin'
