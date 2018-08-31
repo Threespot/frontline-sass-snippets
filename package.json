@@ -2,7 +2,7 @@
   "name": "frontline-sass-snippets",
   "displayName": "Frontline Sass Snippets",
   "version": "1.0.0",
-  "description": "Frontline Sass snippets for Atom",
+  "description": "Frontline Sass snippets for Atom and VS Code",
   "keywords": [
     "snippets",
     "provider",
