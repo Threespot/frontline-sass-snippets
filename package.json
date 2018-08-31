@@ -1,5 +1,6 @@
 {
   "name": "frontline-sass-snippets",
+  "displayName": "Frontline Sass Snippets",
   "version": "1.0.0",
   "description": "Frontline Sass snippets for Atom",
   "keywords": [
@@ -10,10 +11,42 @@
     "mixins",
     "functions"
   ],
+  "publisher": "Threespot",
   "repository": "https://github.com/threespot/frontline-sass-snippets",
   "author": "Mat Brady <matbr8dy@gmail.com> (http://matbrady.github.io/)",
+  "icon": "images/icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "scss",
+        "path": "./vs-snippets/main-functions.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vs-snippets/main-mixins.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vs-snippets/main-variables.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vs-snippets/selector-mixins.json"
+      }
+    ]
+  },
   "license": "MIT",
   "engines": {
-    "atom": ">=1.15.0 <2.0.0"
+    "atom": ">=1.15.0 <2.0.0",
+    "vscode": "^1.0.0"
+  },
+  "devDependencies": {
+    "vsce": "^1.47.0"
+  },
+  "dependencies": {
+    "convert-atom-snippets-to-vscode": "^1.0.2"
   }
 }

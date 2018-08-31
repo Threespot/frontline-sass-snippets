@@ -1,0 +1,65 @@
+{
+  "fs-all-states": {
+    "prefix": "fs-all-states",
+    "body": "@include fs-all-states {\n  $1\n}$0",
+    "description": "fs-all-states",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-all-states",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-all-states-parent": {
+    "prefix": "fs-all-states-parent",
+    "body": "@include fs-all-states-parent(${1:$parent}) {\n  $2\n}$0",
+    "description": "fs-all-states-parent",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-all-states-parent",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-static": {
+    "prefix": "fs-static",
+    "body": "@include fs-static {\n  $1\n}$0",
+    "description": "fs-static",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-static",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-static-parent": {
+    "prefix": "fs-static-parent",
+    "body": "@include fs-static-parent(${1:$parent}) {\n  $2\n}$0",
+    "description": "fs-static-parent",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-static-parent",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-attention": {
+    "prefix": "fs-attention",
+    "body": "@include fs-attention {\n  $1\n}$0",
+    "description": "fs-attention",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-attention",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-attention-parent": {
+    "prefix": "fs-attention-parent",
+    "body": "@include fs-attention-parent(${1:$parent}) {\n  $2\n}$0",
+    "description": "fs-attention-parent",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-attention-parent",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-root-add": {
+    "prefix": "fs-root-add",
+    "body": "@include fs-root-add {\n  $1\n}$0",
+    "description": "fs-root-add",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-add",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-root-before": {
+    "prefix": "fs-root-before",
+    "body": "@include fs-root-before {\n  $1\n}$0",
+    "description": "fs-root-before",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-before",
+    "rightLabelHTML": "@mixin"
+  },
+  "fs-text-inputs": {
+    "prefix": "fs-text-inputs",
+    "body": "@include fs-text-inputs {\n  $1\n}$0",
+    "description": "fs-text-inputs",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-text-inputs",
+    "rightLabelHTML": "@mixin"
+  }
+}

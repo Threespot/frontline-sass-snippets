@@ -1,11 +1,19 @@
 # frontline-sass-snippets
 
-[Frontline Sass](https://github.com/Threespot/frontline-sass) snippets for Atom.
+[Frontline Sass](https://github.com/Threespot/frontline-sass) snippets for Atom and VS Code.
 
 ## Install
 
+### Atom
+
 ```shell
 apm install frontline-sass-snippets
+```
+
+### VS Code
+
+```shell
+code --install-extension threespot.frontline-sass-snippets
 ```
 
 ## Snippets

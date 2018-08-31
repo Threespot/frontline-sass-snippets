@@ -1,0 +1,79 @@
+{
+  "fsbp()": {
+    "prefix": "fs-breakpoint",
+    "body": "fs-breakpoint('${1:key/value}')",
+    "description": "fsbp()",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-breakpoint",
+    "rightLabelHTML": "@function"
+  },
+  "fsac": {
+    "prefix": "fs-auto-contrast()",
+    "body": "fs-auto-contrast(${1:color}, ${2:color-map}, ${3:4.5}, ${4:0})",
+    "description": "fsac",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-auto-contrast",
+    "rightLabelHTML": "@function"
+  },
+  "fsc": {
+    "prefix": "fs-color()",
+    "body": "fs-color('${1:key/value}')",
+    "description": "fsc",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-color",
+    "rightLabelHTML": "@function"
+  },
+  "fse": {
+    "prefix": "fs-easing()",
+    "body": "fs-easing(${1:$name})",
+    "description": "fse",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-easing",
+    "rightLabelHTML": "@function"
+  },
+  "fsem": {
+    "prefix": "fs-em()",
+    "body": "fs-em(${1:$values})",
+    "description": "fsem",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-em",
+    "rightLabelHTML": "@function"
+  },
+  "fsemc": {
+    "prefix": "fs-em(v,c)",
+    "body": "fs-em(${1:$values}, ${2:$fs-base-font-size})",
+    "description": "fsemc",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-em",
+    "rightLabelHTML": "@function"
+  },
+  "fssvg": {
+    "prefix": "fs-svg()",
+    "body": "fs-svg(${1:$name})",
+    "description": "fssvg",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-svg",
+    "rightLabelHTML": "@function"
+  },
+  "fsr": {
+    "prefix": "fs-rem()",
+    "body": "fs-rem(${1:$values})",
+    "description": "fsr",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-rem",
+    "rightLabelHTML": "@function"
+  },
+  "fsrc": {
+    "prefix": "fs-rem(v,c)",
+    "body": "fs-rem(${1:$values}, ${2:$fs-base-font-size})",
+    "description": "fsrc",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-rem",
+    "rightLabelHTML": "@function"
+  },
+  "fsscale": {
+    "prefix": "fs-scale()",
+    "body": "fs-scale(${1:$start}, ${2:$end}, ${3:min-width}, ${4:max-width})",
+    "description": "fsscale",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-scale",
+    "rightLabelHTML": "@function"
+  },
+  "fsz": {
+    "prefix": "fs-zindex()",
+    "body": "fs-zindex('${1:key/value}')",
+    "description": "fsz",
+    "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#main-function-fs-zindex",
+    "rightLabelHTML": "@function"
+  }
+}
