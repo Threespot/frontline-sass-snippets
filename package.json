@@ -44,9 +44,8 @@
     "vscode": "^1.0.0"
   },
   "devDependencies": {
+    "convert-atom-snippets-to-vscode": "^1.0.2",
     "vsce": "^1.47.0"
   },
-  "dependencies": {
-    "convert-atom-snippets-to-vscode": "^1.0.2"
-  }
+  "dependencies": {}
 }
