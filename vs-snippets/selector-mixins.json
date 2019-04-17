@@ -43,14 +43,14 @@
   },
   "fs-root-add": {
     "prefix": "fs-root-add",
-    "body": "@include fs-root-add {\n  $1\n}$0",
+    "body": "@include fs-root-add(${1:$ancestor}) {\n  $2\n}$0",
     "description": "fs-root-add",
     "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-add",
     "rightLabelHTML": "@mixin"
   },
   "fs-root-before": {
     "prefix": "fs-root-before",
-    "body": "@include fs-root-before {\n  $1\n}$0",
+    "body": "@include fs-root-before(${1:$ancestor}) {\n  $2\n}$0",
     "description": "fs-root-before",
     "descriptionMoreURL": "http://threespot.github.io/frontline-sass/documentation/#selectors-mixin-fs-root-before",
     "rightLabelHTML": "@mixin"
