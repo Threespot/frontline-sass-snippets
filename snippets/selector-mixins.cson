@@ -55,8 +55,8 @@
     'rightLabelHTML': '@mixin'
   'fs-root-add':
     'prefix': 'fs-root-add'
-    'body': """@include fs-root-add {
-      $1
+    'body': """@include fs-root-add(${1:$ancestor}) {
+      $2
     }$0
     """
     'description': 'Add selector to root (requires Sass 3.4+)'
@@ -64,8 +64,8 @@
     'rightLabelHTML': '@mixin'
   'fs-root-before':
     'prefix': 'fs-root-before'
-    'body': """@include fs-root-before {
-      $1
+    'body': """@include fs-root-before(${1:$ancestor}) {
+      $2
     }$0
     """
     'description': 'Prepend selector (requires Sass 3.4+)'
